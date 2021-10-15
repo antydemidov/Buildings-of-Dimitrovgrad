@@ -23,6 +23,7 @@ This project was created to collect data of all buildings located in Dimitrovgra
 * Open Data of Reforma GKH: [reformagkh.ru](https://www.reformagkh.ru/opendata)
 * Open Street Map: [openstreetmap.org](openstreetmap.org)
 * 2GIS API: [dev.2gis.ru](https://dev.2gis.ru)
+* Datata API: [dadata.ru](https://dadata.ru)
 
 # Дома Димитровграда (RU)
 
@@ -49,3 +50,4 @@ This project was created to collect data of all buildings located in Dimitrovgra
 * Открытые данные с сайта Реформы ЖКХ: [reformagkh.ru](https://www.reformagkh.ru/opendata)
 * Open Street Map: [openstreetmap.org](openstreetmap.org)
 * 2GIS API: [dev.2gis.ru](https://dev.2gis.ru)
+* Datata API: [dadata.ru](https://dadata.ru)
