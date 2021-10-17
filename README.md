@@ -20,6 +20,7 @@ This project was created to collect data of all buildings located in Dimitrovgra
 
 ## What I use?
 
+* Open Data of alta.ru: [alta.ru](https://www.alta.ru)
 * Open Data of Reforma GKH: [reformagkh.ru](https://www.reformagkh.ru/opendata)
 * Open Street Map: [openstreetmap.org](openstreetmap.org)
 * 2GIS API: [dev.2gis.ru](https://dev.2gis.ru)
@@ -47,6 +48,7 @@ This project was created to collect data of all buildings located in Dimitrovgra
 
 ## Что я использую?
 
+* Общедоступные данные с сайта alta.ru: [alta.ru](https://www.alta.ru)
 * Открытые данные с сайта Реформы ЖКХ: [reformagkh.ru](https://www.reformagkh.ru/opendata)
 * Open Street Map: [openstreetmap.org](openstreetmap.org)
 * 2GIS API: [dev.2gis.ru](https://dev.2gis.ru)
