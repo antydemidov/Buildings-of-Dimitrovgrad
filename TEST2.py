@@ -1,10 +1,12 @@
-# Получение данных о домах города
+# Импорт библиотек
 import requests as rq
 import pandas as pd
 import json
 from dadata import Dadata
 from bs4 import BeautifulSoup as bs
+
 # ШАГ 0. Создаём функции
+
 # Обработка результатов от dadata.ru
 def create_line(result):
     line1 = {}
@@ -13,7 +15,8 @@ def create_line(result):
     for keys in result[0]['data'].keys():
         line1.update({keys:result[0]['data'][keys]})
     return line1
-# Получение кодов 
+
+# Получение кодов улиц
 def parser(site):
     source = rq.get(site).content
     soup = bs(source, 'html.parser')
@@ -29,6 +32,8 @@ def parser(site):
         result.update({table_data_list[k]:table_data_list[k+2:k+6]})
 
     return result
+
+# Получение кодов домов по всем улицам
 def houses_by_street(site):
     source = rq.get(site).text
     soup = bs(source)
@@ -37,6 +42,7 @@ def houses_by_street(site):
         attr = item.attrs
         href.append(attr['href'])
     return href
+
 # ШАГ 1. Получаем коды улиц города
 # alta.ru Улицы по коду города
 source = rq.get('https://www.alta.ru/fias/73b29372-242c-42c5-89cd-8814bc2368af/').text
@@ -49,6 +55,7 @@ fias_streets = []
 for item in href:
     fias_streets.append(item[6:-1])
 del([item, soup, source, href])
+
 # ШАГ 2. Получаем коды домов по кодам улиц
 # alta.ru Дома по коду улицы
 fias_houses = []
@@ -62,11 +69,11 @@ for item in fias_houses:
 fias_houses_codes = []
 for item in fias_houses_all:
     fias_houses_codes.append(item[6:-1])
+
 # ШАГ 3. Получаем данные по кодам домов
 # dadata.ru Поиск данных по коду дома
 token = str(open('E:/CODE/BUILDINGS_OF_DIMITROVGRAD/access_3.txt', 'r').read())
 dadata = Dadata(token)
-
 full_info = []
 for code in fias_houses_codes:
     result = dadata.find_by_id("address", code)

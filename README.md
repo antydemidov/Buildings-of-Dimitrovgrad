@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This project was created to collect data of all buildings located in Dimitrovgrad, Ulianovsk region, Russia.
+This project was created to collect data of all buildings located in Dimitrovgrad, Ulyanovsk region, Russia.
 
 ## Some words for search
 
@@ -23,7 +23,6 @@ This project was created to collect data of all buildings located in Dimitrovgra
 * Open Data of alta.ru: [alta.ru](https://www.alta.ru)
 * Open Data of Reforma GKH: [reformagkh.ru](https://www.reformagkh.ru/opendata)
 * Open Street Map: [openstreetmap.org](https://www.openstreetmap.org)
-* 2GIS API: [dev.2gis.ru](https://dev.2gis.ru)
 * Datata API: [dadata.ru](https://dadata.ru)
 
 # Дома Димитровграда (RU)
@@ -51,5 +50,4 @@ This project was created to collect data of all buildings located in Dimitrovgra
 * Общедоступные данные с сайта alta.ru: [alta.ru](https://www.alta.ru)
 * Открытые данные с сайта Реформы ЖКХ: [reformagkh.ru](https://www.reformagkh.ru/opendata)
 * Open Street Map: [openstreetmap.org](https://www.openstreetmap.org)
-* 2GIS API: [dev.2gis.ru](https://dev.2gis.ru)
 * Datata API: [dadata.ru](https://dadata.ru)
