@@ -1,5 +1,11 @@
 # Buildings of Dimitrovgrad (EN)
 
+![Python](https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54&style=for-the-badge)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?logo=flask&logoColor=white&style=for-the-badge)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white&style=for-the-badge)
+[![Discord](https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?logo=discord&logoColor=white&style=for-the-badge)]()
+<!-- Обновить ссылку -->
+
 ## What is this?
 
 This project was created to collect data of all buildings located in Dimitrovgrad, Ulyanovsk region, Russia.
@@ -28,16 +34,21 @@ This project was created to collect data of all buildings located in Dimitrovgra
 * *TMP* Open Data from [dom.mingkh.ru](https://dom.mingkh.ru)
 
 ## Features
+
 *[Under construction | Read ru version* ⬇ *]*
 
 ## What I have to do
+
 *[Under construction | Read ru version* ⬇ *]*
 
 ## What I want to see as a result
+
 *[Under construction | Read ru version* ⬇ *]*
 
 ## Thanks
+
 To the project [how-old-is-this.house](how-old-is-this.house).
+
 # Дома Димитровграда (RU)
 
 ## Что это такое?

@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>{{ heading }}</h1>
+
+<hr>
+
+<table>
+    {% for key in data.keys() %}
+        <tr>
+            <td>{{key}}</td>
+            <td>{{data[key]}}</td>
+        </tr>
+    {% endfor %}
+</table>
+{% endblock %}

@@ -1,0 +1,68 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="tables-nav-panel">
+    <h1>{{ table_name }}</h1>
+
+    <div class="paginator">
+        {% if for_paginator[1] == 1 %}
+        <a class="btn-usual">
+            {{for_paginator[1]}}
+        </a>
+        <a class="btn-usual" href="{{link}}/{{for_paginator[2]}}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-arrow-right" viewBox="0 0 24 24"><path d="M5 12L19 12"/><path d="M12 5L19 12 12 19"/></svg>
+        </a>
+        {% else %}
+        <a class="btn-usual" href="{{link}}/{{for_paginator[0]}}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-arrow-left" viewBox="0 0 24 24"><path d="M19 12L5 12"/><path d="M12 19L5 12 12 5"/></svg>
+        </a>
+        <a class="btn-usual">
+            {{for_paginator[1]}}
+        </a>
+        <a class="btn-usual" href="{{link}}/{{for_paginator[2]}}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-arrow-right" viewBox="0 0 24 24"><path d="M5 12L19 12"/><path d="M12 5L19 12 12 19"/></svg>
+        </a>
+        {% endif %}
+    </div>
+</div>
+
+<div class="toolkit">
+    <form action="" method="post" novalidate>
+        {{ searchform.search() }}
+        {{ searchform.submit() }}
+    </form>
+    <form action="">
+        {{ filterform.field() }}
+        {{ filterform.submit() }}
+    </form>
+    <p class="red-text">{{ mes }}</p>
+</div>
+
+<hr>
+
+<div class="table-data-block">
+    <table class = "table-data">
+        <thead class = "table-data-thead">
+            <tr>
+                {% for heading in headings %}
+                <th>
+                    {{ heading }}
+                </th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody class = "table-data-tbody">
+            {% for el in data %}
+            <tr>
+                {% for e in el %}
+                <td>
+                    {{ el[e] }}
+                </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

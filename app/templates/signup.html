@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>Sign In</h1>
+
+    <p class="red-text">{{ mes }}</p>
+    
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.username.label }}<br>
+            <div class="field">
+                {{ form.username(size=32) }}
+                {% for error in form.username.errors %}
+                <p class="red-text">{{ error }}</p>
+                {% endfor %}
+            </div>
+        </p>
+        <p>
+            {{ form.password1.label }}<br>
+            <div class="field">
+                {{ form.password1(size=32) }}
+                {% for error in form.password1.errors %}
+                <p class="red-text">{{ error }}</p>
+                {% endfor %}
+            </div>
+        </p>
+        <p>
+            {{ form.password2.label }}<br>
+            <div class="field">
+                {{ form.password2(size=32) }}
+                {% for error in form.password2.errors %}
+                <p class="red-text">{{ error }}</p>
+                {% endfor %}
+            </div>
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+{% endblock %}

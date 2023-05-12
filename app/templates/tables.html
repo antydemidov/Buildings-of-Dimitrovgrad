@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Tables</h1>
+
+<ul class="ul-datalist">
+    {% for coll in colls_list %}
+    <a class="btn-navigate" href="{{ coll['link'] }}">{{ coll['name'] }}</a>
+    {% endfor %}
+</ul>
+
+{% endblock %}
