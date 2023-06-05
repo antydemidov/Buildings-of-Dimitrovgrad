@@ -3,8 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54&style=for-the-badge)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?logo=flask&logoColor=white&style=for-the-badge)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white&style=for-the-badge)
-[![Discord](https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?logo=discord&logoColor=white&style=for-the-badge)]()
-<!-- Обновить ссылку -->
+![Discord](https://img.shields.io/discord/1115339725897740388?color=5865f2&label=Discord&logo=discord&logoColor=white&style=for-the-badge)
 
 ## What is this?
 
@@ -48,6 +47,10 @@ This project was created to collect data of all buildings located in Dimitrovgra
 ## Thanks
 
 To the project [how-old-is-this.house](how-old-is-this.house).
+
+## License
+
+In the process of formulation.
 
 # Дома Димитровграда (RU)
 
@@ -112,3 +115,7 @@ To the project [how-old-is-this.house](how-old-is-this.house).
 ## Спасибо за вдохновление меня
 
 Проекту [how-old-is-this.house](how-old-is-this.house). Их прекрасные работы завораживают и цепляют на долгие часы, дни и недели - тут уже у кого как получится.
+
+## Лицензия
+
+В процессе формулирования.
