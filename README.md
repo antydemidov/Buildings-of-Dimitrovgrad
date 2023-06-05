@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54&style=for-the-badge)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?logo=flask&logoColor=white&style=for-the-badge)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white&style=for-the-badge)
-![Discord](https://img.shields.io/discord/1115339725897740388?color=5865f2&label=Discord&logo=discord&logoColor=white&style=for-the-badge)
+[![Discord](https://img.shields.io/discord/1115339725897740388?color=5865f2&label=Discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/sS27UzaS5s)
 
 ## What is this?
 
